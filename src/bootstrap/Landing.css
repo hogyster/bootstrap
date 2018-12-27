@@ -1,0 +1,10 @@
+.borderstyle {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.bg-warning {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}

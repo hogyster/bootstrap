@@ -1,0 +1,58 @@
+.sidebar {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar-header {
+  font-size: 10px;
+}
+
+.user-status {
+  font-size: 8px;
+}
+.container.info {
+  position: relative;
+  margin: 2px 4px 0px 0px;
+  padding: 2px 4px 0px 2px;
+}
+#category {
+  padding: 2px 0px 20px 0px;
+}
+.sidebar .nav-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+.sidebar .nav-link:hover {
+  color: #10b2b8;
+}
+.nav.flex-column {
+  margin: 10px 4px 0px 0px;
+  padding: 10px 4px 0px 2px;
+}
+.sidebar-heading {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+#plus {
+  margin-right: -20px;
+  color: #999 !important;
+}
+
+a.dropdown-toggle {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #10b2b8 !important;
+}
+
+// a, a:hover,a:visited, a:focus {
+//   text-decoration:none;
+// }

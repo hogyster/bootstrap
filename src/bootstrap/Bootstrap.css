@@ -1,0 +1,25 @@
+body {
+  background: red;
+}
+
+@media (min-width: 576px) {
+  body {
+    background: white;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: red;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background: blue;
+  }
+}
+
+@media (min-width: 1200px) {
+  background: purple;
+}
